@@ -177,8 +177,9 @@ void *row_slot(Table *table, uint32_t row_num)
     return page + byte_offset;
 }
 
-void print_row(Row* row) {
-  printf("(%d, %s, %s)\n", row->id, row->username, row->email);
+void print_row(Row *row)
+{
+    printf("(%d, %s, %s)\n", row->id, row->username, row->email);
 }
 
 ExecuteResult execute_insert(Statement *statement, Table *table)
@@ -234,7 +235,6 @@ void free_table(Table *table)
     for (int i = 0; table->pages[i]; i++)
     {
         free(table->pages[i]);
-
     }
     free(table);
 }
