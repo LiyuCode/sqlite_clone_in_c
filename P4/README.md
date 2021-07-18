@@ -7,5 +7,4 @@
    ```
  - Optionally, install `rebornix.ruby` extension on `VSCode`
 
- now you are good to go write the test script, `db_spec.rb`.
- 
+ Now we are good to go write the test script, `db_spec.rb`.
