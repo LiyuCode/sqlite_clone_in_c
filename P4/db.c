@@ -45,8 +45,8 @@ typedef enum
 typedef struct
 {
     uint32_t id;
-    char username[COLUMN_USERNAME_SIZE];
-    char email[COLUMN_USERNAME_SIZE];
+    char username[COLUMN_USERNAME_SIZE + 1];
+    char email[COLUMN_USERNAME_SIZE + 1];
 } Row;
 typedef struct
 {
@@ -62,7 +62,7 @@ typedef enum
 
 void print_prompt()
 {
-    printf("db >");
+    printf("db > ");
 }
 
 void read_input(InputBuffer *input_buffer)

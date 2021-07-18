@@ -14,5 +14,4 @@ To do this, `SET(CMAKE_C_COMPILER /usr/bin/clang)` is added in `CMakeLists.txt`.
 You may want to ensure `clang` has installed on your Ubuntu before continue.
 This can be done with `sudo apt install llvm clang -y`.
 
-Now we are good to continue `Part 3` the 'db.c'.
-
+Now we are good to continue `Part 3` in 'db.c'.

@@ -1,9 +1,19 @@
 Practice codebase of 'https://cstack.github.io/db_tutorial/'
 
 # ENV
-OS:  `Ubuntu 18.04 x64`
+OS:  `Ubuntu 18.04.05 x64`
 Dev: `apt install build-essential cmake llvm clang -y`
 
+
+# Build and Run
+An example of B&R:
+
+```
+cd P1
+cmake .
+make
+./db.out
+```
 
 # Reference
 https://cstack.github.io/db_tutorial/
@@ -20,6 +30,7 @@ In short, how does a database work?
 
 I’m building a clone of sqlite from scratch in C in order to understand, and I’m going to document my process as I go.
 
+```
 Table of Contents
 Part 1 - Introduction and Setting up the REPL
 Part 2 - World’s Simplest SQL Compiler and Virtual Machine
@@ -34,3 +45,4 @@ Part 10 - Splitting a Leaf Node
 Part 11 - Recursively Searching the B-Tree
 Part 12 - Scanning a Multi-Level B-Tree
 Part 13 - Updating Parent Node After a Split
+```
