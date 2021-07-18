@@ -1,6 +1,9 @@
+Practice codebase of 'https://cstack.github.io/db_tutorial/'
+
 # ENV
 OS:  `Ubuntu 18.04 x64`
 Dev: `apt install build-essential cmake llvm clang -y`
+
 
 # Reference
 https://cstack.github.io/db_tutorial/

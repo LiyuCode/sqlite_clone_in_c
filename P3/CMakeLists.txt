@@ -7,4 +7,4 @@ SET(CMAKE_C_COMPILER /usr/bin/clang)
 project(SQLITE_CLONE)
 
 # add the executable 
-add_executable(a.out repl.c) 
+add_executable(db.out db.c)
